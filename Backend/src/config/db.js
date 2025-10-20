@@ -3,7 +3,7 @@ import "dotenv/config"
 
 const connectionString=process.env.DATABASE_URL;
 if(!connectionString){
-    throw new Error("Conection string not found");
+    throw new Error("Connection string not found");
 }
 const connectionPool=new Pool({connectionString});
 connectionPool.connect()

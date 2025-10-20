@@ -11,8 +11,7 @@ export default async function shortenHandler(req,res){
             code:linkRecord.code,
             // shortUrl:linkRecord.url
             shortUrl: `${process.env.BASE_URL}/${linkRecord.code}`
-        }
-    )
+        })
     }catch(error){
         console.log(error);
     }
