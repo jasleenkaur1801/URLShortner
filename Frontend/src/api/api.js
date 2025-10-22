@@ -17,6 +17,6 @@ if host domain port same then it is single origin
 http://icici.com  can't access http://api.icici.com
 add cors to http://api.icici.com to allow requessts from http://icici.com
 
-frontend: http://localhost:5173/
-backend: http://localhost:3000/
+frontend: https://urlshortner-frontend-xy8w.onrender.com/
+backend: https://urlshortner-backend-vj3y.onrender.com/
 */
